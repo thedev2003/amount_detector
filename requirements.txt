@@ -1,0 +1,14 @@
+# Core web framework and server
+fastapi[all]
+
+# For image processing
+Pillow
+
+# For Optical Character Recognition (OCR)
+pytesseract
+
+# For Natural Language Processing (NLP)
+spacy
+
+# A specific spaCy model for consistent and reproducible results
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz#egg=en_core_web_sm
